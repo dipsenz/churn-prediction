@@ -54,7 +54,7 @@ A probability of 0.5 or higher is classified as churn:
 * $probability < 0.5 \rightarrow \text{No Churn}$
 
 **Custom NumPy Implementation:**
-![Logistic Regression Code](image_cfc08a.png)
+![Logistic Regression Code](modelIMG.png)
 
 ## Model Performance
 The model was evaluated on a test dataset.
@@ -70,7 +70,7 @@ The model was evaluated on a test dataset.
 The ROC-AUC score of 0.8467 indicates that the model has good ability to distinguish between customers who churn and those who do not.
 
 **ROC Curve:**
-![ROC Curve](image_cfc4ab.png)
+![ROC Curve](ROC.png)
 
 ## Tech Stack
 * **Python**
@@ -171,7 +171,7 @@ The Streamlit application allows users to enter customer information through an 
 The application sends the information to the FastAPI backend, which processes the input using the saved model and returns the prediction.
 
 **Example Output:**
-![Streamlit Output Example](image_cfc46a.png)
+![Streamlit Output Example](Churn.png)
 
 ## Future Improvements
 * Tune the classification threshold to improve churn recall
