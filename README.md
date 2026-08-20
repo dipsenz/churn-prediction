@@ -93,7 +93,7 @@ ChurnPred/
 ## Installation
 
 1. Clone the repository
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/dipsenz/churn-prediction.git
 cd ChurnPred
 
 2. Create a virtual environment (Windows)
